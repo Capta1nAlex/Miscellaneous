@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Головна сторінка</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" onclick='home();'>
+        <img src="images/logo.png" alt="" width="160" height="53">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick='home();'>Головна сторінка</a>
+              
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Детальний опис
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#" onclick='khotyn();'>Хотинська фортеця</a></li>
+                <li><a class="dropdown-item" href="#" onclick='akkerman();'>Білгород-Дністровська фортеця</a></li>
+                <li><a class="dropdown-item" href="#" onclick='kamyanec();'>Кам'янець Подільський</a></li>
+                <li><a class="dropdown-item" href="#" onclick='kodak();'>Кодацька фортеця</a></li>
+                <li><a class="dropdown-item" href="#" onclick='baturin();'>Батурінська фортеця</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick='statistics();'>Додаткова інформація</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <div id="Home">
+        <h1>Фортеці України</h1>
+        <div class="row">
+          <div class="col-7">
+            <img src="images/khotyn.jpg" class="img-fluid">
+            <p class="text-center fs-1">
+              <a href = "https://youtu.be/3oNdhzPCPfk"> 
+                <i class="bi bi-youtube"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-5">
+            <h3>Хотинська фортеця</h3>
+            <p class="fs-6"> Середньовічна укріплена фортифікаційна споруда в Хотині (Чернівецька область)</p>
+            <a href="#" onclick='khotyn();'>Детальніше »</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img src="images/akkerman.jpg" class="img-fluid">
+            <p class="text-center fs-1">
+              <a href = "https://www.youtube.com/watch?v=z6DLZ3x6pHs"> 
+                <i class="bi bi-youtube"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-6">
+            <h3>Білгород-Дністровська фортеця</h3>
+            <p class="fs-6">Аккерма́нська фортеця (або Білгород-Дністровська) — історико-архітектурна пам'ятка та найбільша фортеця України.</p>
+            <a href="#" onclick='akkerman();'>Детальніше »</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-7">
+            <img src="images/kamyanec.jpg" class="img-fluid">
+            <p class="text-center fs-1">
+              <a href = "https://www.youtube.com/watch?v=G_vXge2AIOc"> 
+                <i class="bi bi-youtube"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-5"><h3>Кам'янець-Подільський</h3>
+          <p class="fs-6">Кам’янець-Подільський – місто, що зберегло дух середньовіччя.</p>
+          <a href="#" onclick='kamyanec();'>Детальніше »</a>
+          
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-7">
+            <img src="images/kodak.jpg" class="img-fluid">
+            <p class="text-center fs-1">
+              <a href = "https://www.youtube.com/watch?v=HC3VIA_ieTM"> 
+                <i class="bi bi-youtube"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-5"><h3>Кодацька фортеця</h3>
+          <p class="fs-6">Колишня фортеця на правому березі Дніпра навпроти Кодацького порогу, розташована на 10 км нижче міста Дніпра.  </p>
+          <a href="#" onclick='kodak();'>Детальніше »</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-7">
+            <img src="images/baturin.jpg" class="img-fluid">
+            <p class="text-center fs-1">
+              <a href = "https://www.youtube.com/watch?v=dRKCQx7Ckjw"> 
+                <i class="bi bi-youtube"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-5"><h3>Батурінська фортеця</h3>
+          <p class="fs-6">Бату́ринська фортеця — комплекс фортифікаційних споруд і оборонних об'єктів міста Батурина, пам'ятка археології</p>
+          <a href="#" onclick='baturin();'>Детальніше »</a>
+          </div>
+        </div>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+      <div id="Statistics"></div>
+    </div>    
+    <div id="Khotyn">                              
+    <img src="images/khotyn.jpg" class="img-fluid">
+        <div class="container-fluid">
+          <p><h4>Хотинська фортеця – свідок численних війн та баталій. Протягом століть вона була центром розвитку ремесел і торгівлі, культури та економіки. Ця середньовічна красуня може багато розповісти тому, хто побажає вислухати її…
+            Не випадково скелястий мис над Дністром наші предки називали «Хотінь». Назва міста походить від дієслова «хотіти», оскільки мис був бажаним та надійним місцем для давніх поселенців. Завдяки міцній твердині та вигідному розташуванню Хотин став центром розвитку ремесел і торгівлі, які, своєю чергою, сприяли розквіту його культури та економіки. Місто було важливим пунктом у європейсько-азійській торгівлі.            
+          </p></h4>
+          <h6>Фортеця розташована в невеликому місті Хотині з населенням в 11000 людин. Через те, що це місто популярне серед туристів, в ньому з'явилась велика купа готелей та кафе, у порівняні з іншими містам, а щоб тур видався більш цікавим, в місті також є Краєзнавчий Музей, який дасть можливість зазирнути у первіснообщинний лад на території Хотинщини. </h6>
+          <div class="row">
+          <div class="col-6">
+            <img src="images/khotyn-details2.jpg" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <img src="images/khotyn-details1.jpg" class="img-fluid">
+          </div>
+          <div class="col-6" style = "padding-top: 25px">
+            <img src="images/khotyn-details3.jpg" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <img src="images/khotyn-details4.jpeg" class="img-fluid">
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5286.219023694332!2d26.49320075720892!3d48.511965328302246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7a80ae6e34fbc070!2sKhotyns%CA%B9kyy%20Krayeznavchyy%20Muzey!5e0!3m2!1sen!2sua!4v1652680615935!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <h5>Краєзнавчий Музей</h5>
+          </div>
+        </div>
+    </div>
+    <div id="Akkerman">
+      <img src="images/akkerman.jpg" class="img-fluid">
+      <div class="container-fluid">
+        <p><h4>Фортеця будувалася на залишках давньогрецького міста Тіра. Існувало воно до IV століття. Але часті напади завойовників знищили поліс. Спочатку місто зруйнували готи, а потім гуни поклали кінець існуванню Тіри. Після греків на місці Тіри мешкали даки, анти, слов'яни. На думку істориків, у Х столітті Білгород входив до складу Київської Русі, потім деякий час належав Угорському королівству, а ще пізніше — Галицько-Волинському князівству. У складі останнього місто перебувало до нашестя монголів.
+          Достеменно невідомо, коли було закладено фортецю Монкастро. Нині її засновниками більшість істориків вважають генуезців, що прийшли у Причорномор'я в ХІІІ столітті. Цікаво, що ця територія входила в той час до складу Золотої Орди. Але хитрі генуезці якимось чином домовились із монголами. Офіційно Монкастро було татарським містом, але правили в ньому генуезці. Фортеця мала контролювати Дністровський лиман. 
+          <p><h6>Поруч з фортецею є туристична зона, в якій знаходяться база відпочинку "Іверія", парк Військової Слави, музей "Знаряддя Тортур" та велика купа ресторанів і да будь-якого з цих місць можна дійти за меньше ніж 20 хвилина.</p></h6>
+        <div class="row">
+          <div class="col-6">
+            <img src="images/akkerman-details1.jpg" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <img src="images/akkerman-details3.jpg" class="img-fluid">
+          </div>
+          <div class="col-6" style = "padding-top: 15px">
+            <img src="images/akkerman-details2.jpg" class="img-fluid">
+          </div>
+          <div class="col-6" style = "padding-top: 5px">
+            <img src="images/akkerman-details4.jpg" class="img-fluid">
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11046.914034060075!2d30.34296064962186!3d46.19596101226046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa657260e01f7abbb!2sMuzey%20%22Znaryaddya%20Tortur%22!5e0!3m2!1sen!2sua!4v1652677340875!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <h5>Музей "Знаряддя тортур"</h5>
+        </div>
+      </div>   
+    </div>   
+    <div id="Kamyanec">
+      <img src="images/kamyanec.jpg" class="img-fluid">
+      <div class="container-fluid">
+        <p><h4>Кам’янець-Подільський – місто, що зберегло дух середньовіччя. Своєрідність і унікальність його полягають у гармонійному поєднанні ландшафту з містобудівною структурою середньовічного міста, в якому військові інженери, використовуючи чудові природні властивості, створили фортифікаційну систему, що не має аналогів у Європі.
+          Національний історико-архітектурний заповідник „Кам’янець” є одним із найстаріших на території України. Загальна площа заповідника сягає 121 га та налічує майже 200 пам’яток архітектури.  
+          До творення неповторного архітектурного обличчя міста у різні періоди історії доклали майстерності своїх рук архітектори й скульптори з Італії, Нідерландів, Вірменії, Польщі, Франції та Туреччини. 
+          <h6>Кам’янець-Подільський хоч не є обласним центром, проте займає третє місце після Києва та Львова за кількістю пам’яток старовини і культури. Після поїздки до нього жодна людина не залишиться байдужою. </h6>
+        <div class="row">
+          
+          <div class="col-12">
+            <img src="images/kamyanec-details1.jpg" class="img-fluid">
+          </div>
+          <div class="col-12">
+            <img src="images/kamyanec-details2.jpg" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <img src="images/kamyanec-details3.jpg" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <img src="images/kamyanec-details4.jpg" class="img-fluid">
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5268.8039269456285!2d26.575893474217793!3d48.678679012534914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3884bac7ea22daac!2sAl%CA%B9pin-Park!5e0!3m2!1sen!2sua!4v1652681274163!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <h5>Альпін-Парк</h5>
+        </div>
+      </div>
+    </div>
+    <div id="Kodak">
+      <img src="images/kodak.jpg" class="img-fluid">
+      <div class="container-fluid">
+        <p><h4>Кодацька фортеця, Кодак або Койдак (сучасне Кайдаки; пол. Kudak, Кудак від тюркського «кой» — селище та «даг» — гора, тобто «поселення на горі») — колишня фортеця на правому березі Дніпра навпроти Кодацького порогу, розташована на 10 км нижче сучасного міста Дніпра. Залишки фортеці розташовані на території нинішнього села Старі Кодаки, частково знищені під час розробки гранітного кар'єру. До нашого часу збереглися лише земляні вали, встановлений в 1910 році з ініціативи Дмитра Яворницького пам'ятний знак і карта-схема.
+          Перші археологічні обстеження Кодацької фортеці проводилися Дмитром Яворницьким на початку XX століття. У роки радянської влади пам'ятка не досліджувалася і більше ніж на дві третини була знищена Кодацьким гранітним кар'єром. У 1990 році археологічною експедицією ДДУ під керівництвом проф. І. Ф. Ковальової (виконавці робіт — А. В. Андросов, С. Є. Мухопад, В. М. Шалобудов) було проведене шурфування збереженої території фортеці та її посаду, яке встановило наявність культурного шару козацької доби.
+          <p>Наприкінці осені 2011 року археологами ДНУ імені Олеся Гончара було відновлено археологічні дослідження посаду фортеці Старого Кодака. За результатами шурфування довелося констатувати майже тотальне знищення культурного шару у безпосередній близкості до фортеці внаслідок неконтрольованої забудови прилеглих площ. У той же час було зроблене значне відкриття — знайдено залишки Свято-Архангело-Михайлівської церкви, знищеної у 1937 році.</p>
+          <h6>Це місце є ідеальним досугом для тих людей, які хочуть відпочити від шуму міста і побути в тиші та гармонії з природою</h6>
+        <div class="row">
+          <div class="col-6">
+            <img src="images/kodak-details2.jpg" class="img-fluid">
+          </div>
+          <div class="col-6">
+            <img src="images/kodak-details1.jpg" class="img-fluid">
+            <img src="images/kodak-details3.jpg" class="img-fluid" position: relative; style = "padding-top: 20px">
+          </div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10599.251721101245!2d35.12767561021316!3d48.383329723032624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66e82c3184908e65!2sKodats%CA%B9kyy%20Nekropol%CA%B9!5e0!3m2!1sen!2sua!4v1652681918642!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <h5>Кодацький Некрополь</h5>
+        </div>
+      </div>
+    </div>
+
+    <div id="Baturin">
+      <img src="images/baturin.jpg" class="img-fluid">
+      <div class="container-fluid">
+        <p><h4> Бату́ринська фортеця — комплекс фортифікаційних споруд і оборонних об'єктів міста Батурина, пам'ятка археології. Існувала в XVII — на початку XVIII ст. Заснована 1625 року коронною адміністрацією на лівому високому березі річки Сейм. Зруйнована 2 (13 за старим календарем) листопада 1708 р. за наказом московського царя Петра І.
+          Перші укріплення, споруджені на високому мисі лівобережної тераси р. Сейм, були не надто потужними. Під час Смоленської війни у листопаді 1632 р. Батурин здобуло московське військо. Після закінчення війни місто відбудоване людьми Новгород-Сіверського старости Олександра Пісочинського. Тоді ж, у середині 1630-х рр., було споруджено другу лінію фортечних укріплень, які широким півколом охоплювали вигин тераси, а у східній своїй частині примикали до городища, яке і надалі залишалося укріпленим осердям міста. У різних джерелах його названо замком, панським двором, цитаделлю, містом (російською «город», «малый город», «верхний город»). До захищеної укріпленнями забудови навколо Батуринського замку джерела застосовують назви: місто (російською «город»), окольне місто, великий замок, посад, укріплений посад, фортеця.
+          Батуринська фортеця стала частиною т. зв. «Путивльського рубежу» — східної фортифікаційної лінії Речі Посполитої. Польська присутність у краї продовжувалася до початку літа 1648 р. Тоді Батурин перейшов під контроль Війська Запорозького та став центром однойменної сотні.
+          З весни 1669 до листопада 1708 р. місто було головною резиденцією українських гетьманів Дем'яна Ігнатовича, Івана Самойловича та Івана Мазепи. У ході Північної війни 2 листопада 1708 р. Батурин взяло штурмом і зруйнувало московське військо під командуванням Олександра Меншикова. Відтоді Батуринська фортеця втрачає військове значення.
+          <p>У 2008 році була відреставрована.</p>
+        </h4>
+        <div class="row">
+            <img src="images/baturin-details1.jpg" class="img-fluid">
+            <img src="images/baturin-details2.jpg" class="img-fluid" style = "padding-top: 10px; padding-bottom: 10px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2492.282044334407!2d32.88159671576393!3d51.342724079608416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a4e3cbfa777f5c4!2sNatsional%CA%B9nyy%20Istoryko-Kul%CA%B9turnyy%20Zapovidnyk%20%22Het%CA%B9mans%CA%B9ka%20Stolytsya%22!5e0!3m2!1sen!2sua!4v1652683147210!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h5> Національний історико-культурний заповідник "Гетьманська столиця" </h5>
+        </div>
+      </div>
+    </div>
+        
+    <div class="container">
+      <div id="Stat">
+        <h1>
+          Рекомендації інших користувачів після відвідання</h1>
+        <h4>
+        Хотинська фортеця
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 95%">
+          95% туристів рекомендують</div>
+        </div>
+        Аккерманська фортеця
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 86%">
+          86% туристів рекомендують</div>
+        </div>
+        Кам’янець-Подільський
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 97%">
+          97% туристів рекомендують</div>
+        </div>
+        Кодацька фортеця
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 85%">
+          85% туристів рекомендують</div>
+        </div>
+        Батурінська фортеця
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 88%">
+          88% туристів рекомендують</div>
+        </div>
+      <h1> <p class="text-center fs-1">Цікаві факти</p>  </h1>
+      <h6>
+        <div class="row">
+          <div class="col-6">
+            <img src="images/cannon.jpg" class="img-fluid" style = "padding-top: 15px">
+            Незважаючі на те, що поява гармат в 14ст. надала можливість осаждати та захоплювати фортеці замість того, щоб брати їх змором, деякі фортеці зводилися і після. Наприклад Кодацька фортеця була збудована в 17 столітті, але вже в 18 була зруйнована.
+          </div>
+          <div class="col-6">
+            <img src="images/cave fortress.jpg" class="img-fluid" style = "padding-top: 15px">
+            Перша рукотворна фортеця була збудована в 9ст, але схожі споруди намагалися робити і раніше, зачасту використовуючи рел'єф місцевості. Перші приклади таких "фортець" могли бути створеними ще до нашої єри.
+          </div>
+       
+        </div>
+      </div> </h6> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type='text/javascript'>
+
+      function home() {
+        hideAll();
+        document.getElementById("Home").style.display = "block";
+      }
+      function khotyn(){
+        hideAll();
+        document.getElementById("Khotyn").style.display = "block";
+      }
+      function akkerman(){
+        hideAll();
+        document.getElementById("Akkerman").style.display = "block";
+      }
+      function kamyanec(){
+        hideAll();
+        document.getElementById("Kamyanec").style.display = "block";
+      }
+      function kodak(){
+        hideAll();
+        document.getElementById("Kodak").style.display = "block";
+      }
+      function baturin(){
+        hideAll();
+        document.getElementById("Baturin").style.display = "block";
+      }
+      function statistics(){
+        console.log("statistics");
+        hideAll();
+        document.getElementById("Stat").style.display = "block";
+      }
+      function hideAll(){
+        const ids = ["Home", "Khotyn", "Akkerman", "Kamyanec", "Kodak", "Baturin", "Stat"];
+        for (const id of ids) {
+          document.getElementById(id).style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

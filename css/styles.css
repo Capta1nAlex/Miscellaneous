@@ -1,0 +1,55 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.container {
+    animation: transitionIn 2s;
+}
+#Khotyn{
+    animation: transitionIn 2s;
+    display: none;
+}
+#Akkerman{
+    animation: transitionIn 2s;
+    display: none;
+}
+#Kamyanec{
+    animation: transitionIn 2s;
+    display: none;
+}
+#Kodak{
+    animation: transitionIn 2s;
+    display: none;
+}
+#Baturin{
+    animation: transitionIn 2s;
+    display: none;
+}
+#Stat{
+    animation: transitionIn 2s;
+    display: none;
+}
+#Home{
+    animation: transitionIn 2s;
+}
+
+h6 { 
+    font-size: 14px; 
+    text-align: left;
+}
+h5 {
+    font-size: 18px;
+    text-align: center;
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
